@@ -1,0 +1,530 @@
+<open file '/var/www/html/sa-w2/site/practical-surfactants/pde3.php', mode 'r' at 0x7fcf488d64b0>
+$("#SlideWidth").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideHeight").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSym").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/cc.php', mode 'r' at 0x7fcf488d66f0>
+$("#SlideCc1").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/emupol.php', mode 'r' at 0x7fcf488d6540>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/solubility.php', mode 'r' at 0x7fcf488d64b0>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/flocculation.php', mode 'r' at 0x7fcf488d6810>
+$("#SlidePhi0").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePhiMax").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRadius").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideH0").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDRho").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideP0").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#Slideeta").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTShow").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTMax").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/measurements.php', mode 'r' at 0x7fcf488d6540>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/estability.php', mode 'r' at 0x7fcf488d64b0>
+$("#Sliderpm").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDiameter").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGamma").slider({tooltip: 'always',precision: 3,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDensity").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTail").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRigidity").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTemp").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSurf").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideOil").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDLVO").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidec").slider({tooltip: 'always',precision: 3}).on("slideStop", function(value) {CalcIt()});
+$("#Slide2rpm").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#Slide2Diameter").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRho2Oil").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRho2Water").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideViscos2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDropr").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/gibbs.php', mode 'r' at 0x7fcf488d6d20>
+$("#SlideWidth").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideHeight").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSym").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/mpde.php', mode 'r' at 0x7fcf488d6540>
+$("#SlideHLD").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideXi").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideWL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideOL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/elasticity.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/measure-eacn.php', mode 'r' at 0x7fcf488d6d20>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc1").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc1").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideS2").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideKCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWtS2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideKEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSMin").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSMax").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc3").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN3").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc3").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt3").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN3").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePITref").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWtref").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACNref").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePITmix").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWtl").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePercoil").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideAlpha").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/crm.php', mode 'r' at 0x7fcf4889a1e0>
+$("#Slidegmin").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidegeq").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slideka").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#Slidekr").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#Slidee").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideAmp").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideF").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/p2d.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/surfactant-types.php', mode 'r' at 0x7fcf488d6d20>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/basics.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/distribution.php', mode 'r' at 0x7fcf488d6d20>
+$("#SlidePr1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePH1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePW1").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePr2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePH2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePW2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRange").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/latte.php', mode 'r' at 0x7fcf488d65d0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-making.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/emuvisc.php', mode 'r' at 0x7fcf488d65d0>
+$("#SlideV0").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideVoil").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePhiMax").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/dst.php', mode 'r' at 0x7fcf488d68a0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/drops.php', mode 'r' at 0x7fcf488d64b0>
+$("#SlideHLD").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTail").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSurf").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/pif.php', mode 'r' at 0x7fcf488d6e40>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideOil").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMVol1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMVol2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/fishtail.php', mode 'r' at 0x7fcf488d68a0>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideOil").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMVol1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMVol2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/nacmore.php', mode 'r' at 0x7fcf488d64b0>
+$("#SlideAC").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideBC").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNO").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNB").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNX").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/dst-choice.php', mode 'r' at 0x7fcf488d6e40>
+$("#SlideGammaM").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideD").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTMax").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#Slidecmc").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#Slidea").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideC").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/separation.php', mode 'r' at 0x7fcf488d65d0>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideXi").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSConc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/cloud-krafft.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/curvature.php', mode 'r' at 0x7fcf488d6e40>
+$("#SlideVs").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideVo").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideVa").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideAs").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideAo").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideAa").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidetau").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#Slidealpha").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#Slidelambda").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTail").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/anti-foams.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideGammaAW").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGammaOW").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGammaOA").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/cmc.php', mode 'r' at 0x7fcf488d64b0>
+$("#SlideST").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidecmc").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/xi.php', mode 'r' at 0x7fcf488d6e40>
+$("#SlideTail").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRho").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/about.php', mode 'r' at 0x7fcf488d6a50>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/inversion.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-ostwald.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlidePeak").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideWidth").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidek").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#Slideh").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePhi").slider({tooltip: 'always',precision: 3}).on("slideStop", function(value) {CalcIt()});
+$("#Slidegamma").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidetMax").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlidedMax").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#Slidemlk").slider({tooltip: 'always',precision: 3,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideD").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideHenry").slider({tooltip: 'always',precision: 4,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-dlvo.php', mode 'r' at 0x7fcf488d6540>
+$("#SlideMolar").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideScale").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideAH").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideZeta").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSl").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#Slideq").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/nav.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/cleaning.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideXi").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSConc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/cmcsat.php', mode 'r' at 0x7fcf488d6ae0>
+$("#SlideKads").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#Sliden").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/other.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/p3d.php', mode 'r' at 0x7fcf488d6a50>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/uses.php', mode 'r' at 0x7fcf488d64b0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/roll-up.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideT").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/surfactant-sol.php', mode 'r' at 0x7fcf488d64b0>
+$("#Slidecmc").slider({tooltip: 'always',precision: 0 ,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0,scale:'logarithmic' }).on("slideStop", function(value) {CalcIt()});
+$("#SlideChain").slider({tooltip: 'always',precision: 0 }).on("slideStop", function(value) {CalcIt()});
+$("#SlideMSR").slider({tooltip: 'always',precision: 0 }).on("slideStop", function(value) {CalcIt()});
+$("#SlideN").slider({tooltip: 'always',precision: 0,scale:'logarithmic' }).on("slideStop", function(value) {CalcIt()});
+$("#SlidePercMax").slider({tooltip: 'always',precision: 0 }).on("slideStop", function(value) {CalcIt()});
+$("#SlideS0").slider({tooltip: 'always',precision: 0 }).on("slideStop", function(value) {CalcIt()});
+$("#SlideV").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0 }).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/sdt.php', mode 'r' at 0x7fcf488d6b70>
+$("#SlideIFT").slider({tooltip: 'always',precision: 4,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRPM").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDeltaD").slider({tooltip: 'always',precision: 3,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/eacn.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideOil1").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideOil2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-drainage.php', mode 'r' at 0x7fcf488d6540>
+$("#SlideD").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideHeight").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideViscosity").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDensity").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEpsilon").slider({tooltip: 'always',precision: 3}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGamma").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/cmc-values.php', mode 'r' at 0x7fcf488d6b70>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-basics.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideST").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidecmc").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/polymeric.php', mode 'r' at 0x7fcf488d6b70>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/microemulsions.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideXi").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSConc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNanoA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNanoTail").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNanoW").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNanoSurf").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNanoMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/measure-cc.php', mode 'r' at 0x7fcf488d68a0>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN1").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN2").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc1").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideS2").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc2").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideKCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideUCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN3").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideKMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideUMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSMin").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSMax").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc3").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN3").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN4").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc3").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/partition.php', mode 'r' at 0x7fcf488d6b70>
+$("#SlideST").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidecmc").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGH").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGE").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/eotvos.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideVol").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDRho").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTheta").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideIFT").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/macroemulsions.php', mode 'r' at 0x7fcf488d6810>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideXi").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSConc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/removal.php', mode 'r' at 0x7fcf488d6b70>
+$("#SlideU").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRadius").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDRho").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#Slideeta").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePhi0").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePhiHi").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCrit").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#Sliden").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideIFT").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/pde.php', mode 'r' at 0x7fcf488d6a50>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/coalescence.php', mode 'r' at 0x7fcf488d6810>
+$("#Slider").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideV").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideE").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideViscosity").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTmax").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/ostwald.php', mode 'r' at 0x7fcf488d6930>
+$("#SlideR0").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidec").slider({tooltip: 'always',precision: 3}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGamma").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTmax").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/the-book.php', mode 'r' at 0x7fcf488d6a50>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/hld.php', mode 'r' at 0x7fcf488d6810>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/creaming.php', mode 'r' at 0x7fcf488d66f0>
+$("#SlideRadius").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideViscosity").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRhoOil").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRhoWater").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideHeight").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-rheology.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideR").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidegamma").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePhi").slider({tooltip: 'always',precision: 3}).on("slideStop", function(value) {CalcIt()});
+$("#SlideVisc").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-elasticity.php', mode 'r' at 0x7fcf488d6810>
+$("#SlideGm").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCMC").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideH").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideST").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/emusa.php', mode 'r' at 0x7fcf488d66f0>
+$("#Slider").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideV").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGamma").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSg").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/dlvo.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideMolar").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideRad").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideZeta").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA12").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDelta").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideScale").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/edsm.php', mode 'r' at 0x7fcf488d6810>
+$("#Sliderpm").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDiameter").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGamma").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDensity").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideV0").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideVoil").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePhi").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGap").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#Slideb1").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA1").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA2").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA3").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/bancroft.php', mode 'r' at 0x7fcf488d66f0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/pde1.php', mode 'r' at 0x7fcf488d6a50>
+$("#Slideab").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#Slidecd").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/critcap.php', mode 'r' at 0x7fcf488d66f0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/pickering.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideTheta").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/hld-expert.php', mode 'r' at 0x7fcf488d69c0>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideFA").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePerc").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/solubilizers.php', mode 'r' at 0x7fcf488d66f0>
+$("#Slidecmc").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideChain").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMSR").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlidePercMax").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideS0").slider({tooltip: 'always',precision: 3}).on("slideStop", function(value) {CalcIt()});
+$("#SlideV").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/foam-fractionation.php', mode 'r' at 0x7fcf488d6a50>
+$("#Slider").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideC0").slider({tooltip: 'always',precision: 3,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideViscosity").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideDensity").slider({tooltip: 'always',precision: 2}).on("slideStop", function(value) {CalcIt()});
+$("#Slidej0").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#Slidejg").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideGm").slider({tooltip: 'always',precision: 1,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideK").slider({tooltip: 'always',precision: 0,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideN").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/pde2.php', mode 'r' at 0x7fcf488d69c0>
+$("#SlideWidth").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideHeight").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideSym").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/ift.php', mode 'r' at 0x7fcf488d66f0>
+$("#SlideS").slider({tooltip: 'always',precision: 2,scale:'logarithmic'}).on("slideStop", function(value) {CalcIt()});
+$("#SlideT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideMWt").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideCc").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideL").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideEACN").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideNkT").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/fish-and-more.php', mode 'r' at 0x7fcf488d6a50>
+
+									$("#SlideS").slider({
+										tooltip: 'always',
+										precision: 2,
+										scale: 'logarithmic'
+									}).on("slideStop", function(value) {CalcIt()});
+								
+
+									$("#SlideT").slider({
+										tooltip: 'always',
+										precision: 1
+									}).on("slideStop", function(value) {CalcIt()});
+								
+
+							$("#SlideCc").slider({tooltip: 'always',
+								precision: 2
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideMWt").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideA").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideL").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideCc2").slider({tooltip: 'always',
+								precision: 2
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideMWt2").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideA2").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideL2").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideEACN").slider({tooltip: 'always',
+								precision: 1
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideMVol1").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideEACN2").slider({tooltip: 'always',
+								precision: 1
+							}).on("slideStop", function(value) {CalcIt()});
+						
+
+							$("#SlideMVol2").slider({tooltip: 'always',
+								precision: 0
+							}).on("slideStop", function(value) {CalcIt()});
+						
+<open file '/var/www/html/sa-w2/site/practical-surfactants/index (1).php', mode 'r' at 0x7fcf488d69c0>
+<open file '/var/www/html/sa-w2/site/practical-surfactants/cpp.php', mode 'r' at 0x7fcf488d6a50>
+$("#SlideV").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+$("#SlideTail").slider({tooltip: 'always',precision: 1}).on("slideStop", function(value) {CalcIt()});
+$("#SlideA").slider({tooltip: 'always',precision: 0}).on("slideStop", function(value) {CalcIt()});
+<open file '/var/www/html/sa-w2/site/practical-surfactants/index.php', mode 'r' at 0x7fcf488d6ed0>
