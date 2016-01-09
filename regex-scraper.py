@@ -1,10 +1,13 @@
 import sys, re, os
 
+if len(sys.argv) > 2:
+    path = sys.argv[2]
+else:
+    path = os.path.dirname(os.path.realpath(__file__))
 
-path = sys.argv[1]
 if os.listdir(path):
     directory = os.listdir(path)
-    if sys.argv[3]:
+    if len(sys.argv) > 3:
         saveFile = sys.argv[3]
     else:
         saveFile = os.path.basename(os.path.normpath(path)) + '.txt'
@@ -12,12 +15,12 @@ if os.listdir(path):
     js = open(saveFile, "w")
 
     for item in directory:
-        phpFile = os.path.join(path, item)
-        if (os.path.isfile(phpFile)):
+        foundFile = os.path.join(path, item)
+        if (os.path.isfile(foundFile)):
             file = os.path.join(path, item)
             html = open(file, "r")
             readfile = html.read()
-            regex = re.compile(sys.argv[2], re.DOTALL)
+            regex = re.compile(sys.argv[1], re.DOTALL)
             found = regex.findall(readfile);
             print >> js, "\n\n" + os.path.basename(html.name) +"\n=========================================\n\n"
             for item in found:
